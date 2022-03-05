@@ -4,6 +4,6 @@ describe('My First Test', () => {
   it('Visits the initial project page', () => {
     cy.visit('/')
     cy.contains('Welcome')
-    cy.contains('assistanceRolManagment app is running!')
+    cy.contains('Assistance Role Managment app is running!')
   })
 })
