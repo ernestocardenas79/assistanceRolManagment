@@ -25,7 +25,7 @@ describe('AppComponent', () => {
   test(`should have as title 'angular-testing'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const component = fixture.componentInstance;
-    expect(component.title).toEqual('Assistance Role Managment');
+    expect(component.title).toEqual('Bienvenido a Administrador de asistencias a clases');
   });
 
   test('should render title', () => {
